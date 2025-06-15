@@ -135,4 +135,4 @@ wget -nc https://paddle-org.bj.bcebos.com/paddlescience/datasets/tempoGAN/2d_val
 |          | MSE                 | PSNR            | SSIM             |
 | -------- | ------------------- | --------------- | ---------------- |
 | GAN      | $10.87e^{-5}$     | 39.64           | 0.9946           |
-| tempoGAN |  *$4.21e^{-5}$* | **47.19** | **0.9974** |
+| tempoGAN |  **$4.21e^{-5}$** | **47.19** | **0.9974** |
