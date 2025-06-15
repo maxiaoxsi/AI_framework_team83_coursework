@@ -99,15 +99,15 @@ tempo_net:
 本次代码基于PaddlePaddle以及PaddleScience，请安装后运行，安装代码如下：
 1. 创建环境
 
-、、、
+```
 conda create -n ppsci_py39 python=3.9
-、、、
+```
 
 2.启动环境
 
-、、、
+```
 conda activate ppsci_py39
-、、、
+```
 
 3.访问PaddlePaddle官网安装环境
 
@@ -115,16 +115,16 @@ https://www.paddlepaddle.org.cn/install/quick?docurl=/documentation/docs/zh/deve
 
 4.安装PaddleScience
 
-、、、
+```
 python -m pip install -U paddlesci -i https://pypi.tuna.tsinghua.edu.cn/simple
-、、、
+```
 
 5. 下载数据集
 
-、、、
+```
 wget -nc https://paddle-org.bj.bcebos.com/paddlescience/datasets/tempoGAN/2d_train.mat -P datasets/tempoGAN/
 wget -nc https://paddle-org.bj.bcebos.com/paddlescience/datasets/tempoGAN/2d_valid.mat -P datasets/tempoGAN/
-、、、
+```
 
 6.一键启动
 
