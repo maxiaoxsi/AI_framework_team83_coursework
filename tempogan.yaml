@@ -17,13 +17,13 @@ hydra:
     chdir: false # keep current working directory unchanged
   sweep:
     # output directory for multirun
-    dir: ${hydra.run.dir}
+    dir: ./train
     subdir: ./
 
 # general settings
 mode: train # running mode: train/eval
 seed: 42
-output_dir: ${hydra:run.dir}
+output_dir: ./train
 log_freq: 20
 DATASET_PATH: ./datasets/tempoGAN/2d_train.mat
 DATASET_PATH_VALID: ./datasets/tempoGAN/2d_valid.mat
@@ -79,7 +79,7 @@ TRAIN:
   batch_size:
     sup_constraint: 8
   lr_scheduler:
-    epochs: ${TRAIN.epochs}
+    epochs: 10000
     iters_per_epoch: ${TRAIN.iters_per_epoch}
     learning_rate: 2.0e-4
     gamma: 0.05
